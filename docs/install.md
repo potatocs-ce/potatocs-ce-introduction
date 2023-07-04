@@ -64,3 +64,73 @@ $ source ~/.bashrc
 $ nvm install v16
 $ nvm alias default v16
 ```
+
+#### 1.4 Docker desktop 다운로드
+
+<https://www.docker.com/products/docker-desktop/>
+
+#### 1.5 Docker Image 다운로드
+
+```sh
+# wsl2 우분투에서
+# mongodb binding 경로 생성
+$ mkdir ~/mongodb && mkdir ~/mongodb/data
+
+# 몽고디비 이미지 설치
+$ docker pull mongo
+
+# 도커로 몽고디비 실행
+$ docker run --name mongodb -v ~/mongodb/data:/data/db -d -p 27017:27017 mongo
+
+# coturn 이미지 설치
+$ docker pull coturn/coturn
+
+# coturn 실행
+# * localhost 테스트용으로 포트번호를 적게 열어둠.
+# 실사용 시 -p 49152-65535:49152-65535/udp 로 바꾸고 --min-port=49160 --max-port=49200 제거
+$ docker run -d -p 3478:3478 -p 3478:3478/udp -p 5349:5349 -p 5349:5349/udp \\
+ -p 49160-49200:49160-49200/udp coturn/coturn --min-port=49160 --max-port=49200
+
+# 쿠렌토 미디어 설치
+$ docker pull kurento/kurento-media-server
+
+# 쿠렌토 미디어 실행
+$ docker run --rm -d -p 8888:8888/tcp -p 5000-5050:5000-5050/udp \\
+ -e KMS_MIN_PORT=5000 -e KMS_MAX_PORT=5050 kurento/kurento-media-server:6.16.0
+```
+
+---
+
+## 2. 포테이톡스 커뮤니티 설치
+
+```sh
+# 포테이톡스 협업 클라이언트
+$ git clone https://github.com/NSMARTS/potatocs-collab-client-community.git
+
+# 포테이톡스 협업 서버
+$ git clone https://github.com/NSMARTS/potatocs-collab-server-community.git
+
+# 포테이톡스 미팅 클라이언트
+$ git clone https://github.com/NSMARTS/potatocs-meeting-client-community.git
+
+# 포테이톡스 미팅 서버
+$ git clone https://github.com/NSMARTS/potatocs-meeting-server-community.git
+```
+
+---
+
+## 3. 환경변수 설정
+
+#### 3.1 포테이톡스 협업서버 환경변수 설정
+
+```sh
+# 포테이톡스 협업 서버로 이동
+cd potatocs-collab-server-community
+
+# env 파일 생성
+mkdir env && vi env/dev.env
+
+# vi 편집기에서 'i' 누른 후 아래 내용 복사 + 붙여넣기. 저장 후 종료 esc wq!
+-----------------------------------------------
+
+```
