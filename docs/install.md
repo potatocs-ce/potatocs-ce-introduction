@@ -204,3 +204,35 @@ AWS_REGION = 'Your_S3_REGION'
 AWS_S3_BUCKET = 'Your_S3_BUCKET'
 -----------------------------------------------
 ```
+
+---
+
+## 4. 포테이톡스 실행
+
+```sh
+# 터미널 첫번째 탭에서 실행
+cd potatocs-collab-client-community
+npm i
+npm start
+
+# 터미널 두번째 탭에서 실행
+cd potatocs-collab-server-community
+npm i
+npm run linux-test
+
+# 터미널 세번째 탭에서 실행
+cd potatocs-meeting-client-community
+npm i
+npm start
+
+# 터미널 네번째 탭에서 실행
+cd potatocs-meeting-server-community
+npm i
+npm run linux-test
+```
+
+---
+
+## 5. 문의사항
+
+궁금하거나 문의사항이 있을 경우, ce.potatocs@gmail.com 으로 연락주시길 바랍니다.
