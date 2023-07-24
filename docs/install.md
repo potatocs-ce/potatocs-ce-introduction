@@ -205,6 +205,47 @@ AWS_S3_BUCKET = 'Your_S3_BUCKET'
 -----------------------------------------------
 ```
 
+# vi 편집기에서 'i' 누른 후 아래 내용 복사 + 붙여넣기. 저장 후 종료 esc wq!
+
+---
+
+# DEVELOPMENT MODE
+
+MODE = 'Development Mode'
+
+# Token
+
+JWT_SECRET = 'coop'
+
+# Mongo DB URL
+
+MONGODB_URI='mongodb://localhost:27017/?directConnection=true?retryWrites=true&w=majority'
+
+# PORT
+
+PORT = 3400
+
+# VERSION
+
+VERSION = '0.0.1'
+
+# SocketHandler-sharing
+
+KURENTO_AS_URI = 'http://localhost:3000'
+KURENTO_WS_URI = 'ws://localhost:8888/kurento'
+
+# S3 Config
+
+AWS_ACCESS_KEY = 'Your S3 ACCESS_KEY'
+AWS_SECRET_ACCESS_KEY = 'Your S3_SECRET_ACCESS_KEY'
+AWS_REGION = 'Your_S3_REGION'
+
+# S3 Bucket Name
+
+## AWS_S3_BUCKET = 'Your_S3_BUCKET'
+
+````
+
 ---
 
 ## 4. 포테이톡스 실행
@@ -229,7 +270,7 @@ npm start
 cd potatocs-meeting-server-community
 npm i
 npm run linux-test
-```
+````
 
 ---
 
