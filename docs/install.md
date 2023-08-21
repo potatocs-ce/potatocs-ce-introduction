@@ -205,34 +205,6 @@ AWS_S3_BUCKET = 'Your_S3_BUCKET'
 -----------------------------------------------
 ```
 
-## <!--
-
-## 4. 포테이톡스 실행
-
-```sh
-# 터미널 첫번째 탭에서 실행
-cd potatocs-collab-client-community
-npm i
-npm start
-
-# 터미널 두번째 탭에서 실행
-cd potatocs-collab-server-community
-npm i
-npm run linux-test
-
-# 터미널 세번째 탭에서 실행
-cd potatocs-meeting-client-community
-npm i
-npm start
-
-# 터미널 네번째 탭에서 실행
-cd potatocs-meeting-server-community
-npm i
-npm run linux-test
-```
-
---- -->
-
 ---
 
 ## 4. 포테이톡스 실행
@@ -241,7 +213,7 @@ npm run linux-test
 # 터미널 첫번째 탭에서 실행
 cd potatocs-collab-client-community
 npm i
-npm run start
+npm start
 
 # 터미널 두번째 탭에서 실행
 cd potatocs-collab-server-community
@@ -251,7 +223,7 @@ npm run linux-test
 # 터미널 세번째 탭에서 실행
 cd potatocs-meeting-client-community
 npm i
-npm run start
+npm start
 
 # 터미널 네번째 탭에서 실행
 cd potatocs-meeting-server-community
