@@ -1,9 +1,20 @@
+# site_name: Potatocs Community Edition
+
+# theme:
+#     name: readthedocs
+#     nav_style: dark
+
+# nav:
+#     - What is Potatcs?: index.md
+#     - Getting started: install.md
+
 site_name: Potatocs Community Edition
 
 theme:
     name: readthedocs
-    nav_style: dark
+    nav_style: blue
 
 nav:
     - What is Potatcs?: index.md
     - Getting started: install.md
+    - How to set up?: setup.md
