@@ -236,9 +236,3 @@ npm run linux-test
 ## 5. 문의사항
 
 궁금하거나 문의사항이 있을 경우, ce.potatocs@gmail.com 으로 연락주시길 바랍니다.
-
-## how to build
-
-```
-npm run build
-```
