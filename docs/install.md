@@ -25,19 +25,6 @@
 
 #### 1.1 windows terminal 설치
 
-## 1. 필수 요구사항
-
-|       이름       |                 버전                 |
-| :--------------: | :----------------------------------: |
-| Windows terminal |   v 1.17.11 \* Mac OS 시 필요 없음   |
-|       wsl2       | Unbuntu 22.04 \* Mac OS 시 필요 없음 |
-|       node       |                 v 16                 |
-|  Docker Desktop  |             v 4.21.0 lts             |
-|       git        |               v 2.41.0               |
-| AWS S3 , SES KEY |    AWS S3 , SES 사용에 필요한 Key    |
-
-#### 1.1 windows terminal 설치
-
 <https://learn.microsoft.com/ko-kr/windows/terminal/install>
 
 #### 1.2 wsl2 설치법
