@@ -6,4 +6,5 @@ theme:
 
 nav:
     - What is Potatcs?: index.md
+    - How to setting: setting.md
     - Getting started: install.md
