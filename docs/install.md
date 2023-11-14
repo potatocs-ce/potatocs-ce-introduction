@@ -236,3 +236,13 @@ npm run linux-test
 ## 5. 문의사항
 
 궁금하거나 문의사항이 있을 경우, ce.potatocs@gmail.com 으로 연락주시길 바랍니다.
+
+
+---
+## 6. 추가 도움 및 지원
+
+### 6.1 온라인 문서 및 자료
+Potatocs 사용자를 위한 포괄적인 온라인 문서 및 자료가 제공됩니다. 
+사용자는 다음 링크에서 Potatocs의 다양한 기능, 설치 방법, 사용 방법에 대한 자세한 가이드를 찾을 수 있습니다:
+
+Potatocs FAQ: [ https://github.com/potatocs-ce/potatocs-ce-introduction/discussions ]
