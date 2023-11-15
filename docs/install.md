@@ -246,3 +246,9 @@ Potatocs 사용자를 위한 포괄적인 온라인 문서 및 자료가 제공�
 사용자는 다음 링크에서 Potatocs의 다양한 기능, 설치 방법, 사용 방법에 대한 자세한 가이드를 찾을 수 있습니다:
 
 Potatocs FAQ: [ https://github.com/potatocs-ce/potatocs-ce-introduction/discussions ]
+
+### 6.2 커뮤니티 참여
+Potatocs 사용자 커뮤니티에 참여하시면 다른 사용자들과 정보를 공유하고, 팁을 얻으며, Potatocs에 대한 최신 소식을 받아볼 수 있습니다.
+커뮤니티 참여를 통해 Potatocs 경험을 더욱 풍부하게 만들어 보세요:
+
+커뮤니티 참여 링크: [ https://github.com/potatocs-ce/potatocs-ce-introduction/issues ]
