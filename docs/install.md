@@ -252,3 +252,8 @@ Potatocs 사용자 커뮤니티에 참여하시면 다른 사용자들과 정보
 커뮤니티 참여를 통해 Potatocs 경험을 더욱 풍부하게 만들어 보세요:
 
 커뮤니티 참여 링크: [ https://github.com/potatocs-ce/potatocs-ce-introduction/issues ]
+
+---
+Potatocs는 사용자의 성공적인 협업과 원활한 커뮤니케이션을 위해 계속해서 노력합니다. 
+이 가이드가 여러분의 Potatocs 사용 경험을 돕는 데 유용하길 바랍니다. 
+추가적인 질문이나 지원이 필요하시면 언제든지 연락주세요.
