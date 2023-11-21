@@ -1,5 +1,6 @@
 # What is Potatocs Community Edition?
 
+---
 version: 1.0.0
 
 link: https://potatocs.com/doc
