@@ -1,0 +1,9 @@
+site_name: Potatocs Community Edition
+
+theme:
+    name: readthedocs
+    nav_style: dark
+
+nav:
+  - What is Potatcs?: index.md
+  - Getting started: install.md
