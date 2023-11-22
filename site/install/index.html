@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Getting started - Potatocs Community Edition</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Getting started";
+        var mkdocs_page_input_path = "install.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Potatocs Community Edition
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">What is Potatcs?</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Getting started</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_1">목차</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1">1. 요구사항</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#11-windows-terminal">1.1 windows terminal 설치</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#12-wsl2">1.2 wsl2 설치법</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#13-node-nvm">1.3 node/ nvm 설치</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#14-docker-desktop">1.4 Docker desktop 다운로드</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#15-docker-image">1.5 Docker Image 다운로드</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2">2. 포테이톡스 커뮤니티 설치</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3">3. 환경변수 설정</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#31">3.1 포테이톡스 협업서버 환경변수 설정</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#32">3.2 포테이톡스 미팅서버 환경변수 설정</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4">4. 포테이톡스 실행</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5">5. 문의사항</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Potatocs Community Edition</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+      <li>Getting started</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="getting-started-install">Getting started - install</h1>
+<hr />
+<h2 id="_1">목차</h2>
+<p><a href="#1">1. 요구사항</a> <br>
+<a href="#2">2. 포테이톡스 커뮤니티 설치</a> <br>
+<a href="#3">3. 환경변수 설정</a> <br>
+<a href="#4">4. 포테이톡스 실행</a> <br>
+<a href="#5">5. 문의사항</a> <br></p>
+<!-- -   `mkdocs new [dir-name]` - Create a new project. -->
+<hr />
+<h2 id="1">1. 요구사항</h2>
+<table>
+<thead>
+<tr>
+<th align="center">이름</th>
+<th align="center">버전</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Windows terminal</td>
+<td align="center">v 1.17.11 * Mac OS 시 필요 없음</td>
+</tr>
+<tr>
+<td align="center">wsl2</td>
+<td align="center">Unbuntu 22.04 * Mac OS 시 필요 없음</td>
+</tr>
+<tr>
+<td align="center">node</td>
+<td align="center">v 16</td>
+</tr>
+<tr>
+<td align="center">Docker Desktop</td>
+<td align="center">v 4.21.0 lts</td>
+</tr>
+<tr>
+<td align="center">git</td>
+<td align="center">v 2.41.0</td>
+</tr>
+<tr>
+<td align="center">AWS S3 , SES KEY</td>
+<td align="center">AWS S3 , SES 사용에 필요한 Key</td>
+</tr>
+</tbody>
+</table>
+<h4 id="11-windows-terminal">1.1 windows terminal 설치</h4>
+<p><a href="https://learn.microsoft.com/ko-kr/windows/terminal/install">https://learn.microsoft.com/ko-kr/windows/terminal/install</a></p>
+<h4 id="12-wsl2">1.2 wsl2 설치법</h4>
+<p><a href="https://learn.microsoft.com/ko-kr/windows/wsl/install-manual">https://learn.microsoft.com/ko-kr/windows/wsl/install-manual</a></p>
+<p>관리자 모드로 PowerShell 실행</p>
+<pre><code class="language-sh">
+# Linux용 Windows 하위시스템 사용
+$ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+# Virtual Machine 기능 사용
+$ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+# https://learn.microsoft.com/ko-kr/windows/wsl/install-manualdptj
+# MS STORE 에서 리눅스 커널 업데이트 패키지 다운 !!!
+
+# 리눅스 커널 업데이트 패키지 다운 후 재부팅.
+# 관리자모드 Powershell에서 wsl2 로 전환
+$ wsl --set-default-version 2
+
+# MS STORE에서 Ubuntu 22.04 lts 설치
+# https://apps.microsoft.com/store/detail/ubuntu-22042-lts/9PN20MSR04DW?hl=ko-kr&amp;gl=kr&amp;rtc=1
+# 에서 설치 후 ubuntu 사용자 계정 / 비밀번호 등록
+</code></pre>
+<h4 id="13-node-nvm">1.3 node/ nvm 설치</h4>
+<p><a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></p>
+<pre><code class="language-sh"># wsl2 설치 후 우분투 환경에 nvm 설치
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+$ source ~/.bashrc
+$ nvm install v16
+$ nvm alias default v16
+</code></pre>
+<h4 id="14-docker-desktop">1.4 Docker desktop 다운로드</h4>
+<p><a href="https://www.docker.com/products/docker-desktop/">https://www.docker.com/products/docker-desktop/</a></p>
+<h4 id="15-docker-image">1.5 Docker Image 다운로드</h4>
+<pre><code class="language-sh"># wsl2 우분투에서
+# mongodb binding 경로 생성
+$ mkdir ~/mongodb &amp;&amp; mkdir ~/mongodb/data
+
+# 몽고디비 이미지 설치
+$ docker pull mongo
+
+# 도커로 몽고디비 실행
+$ docker run --name mongodb -v ~/mongodb/data:/data/db -d -p 27017:27017 mongo
+
+# coturn 이미지 설치
+$ docker pull coturn/coturn
+
+# coturn 실행
+# * localhost 테스트용으로 포트번호를 적게 열어둠.
+# 실사용 시 -p 49152-65535:49152-65535/udp 로 바꾸고 --min-port=49160 --max-port=49200 제거
+$ docker run -d -p 3478:3478 -p 3478:3478/udp -p 5349:5349 -p 5349:5349/udp \\
+ -p 49160-49200:49160-49200/udp coturn/coturn --min-port=49160 --max-port=49200
+
+# 쿠렌토 미디어 설치
+$ docker pull kurento/kurento-media-server
+
+# 쿠렌토 미디어 실행
+$ docker run --rm -d -p 8888:8888/tcp -p 5000-5050:5000-5050/udp \\
+ -e KMS_MIN_PORT=5000 -e KMS_MAX_PORT=5050 kurento/kurento-media-server:6.16.0
+</code></pre>
+<hr />
+<h2 id="2">2. 포테이톡스 커뮤니티 설치</h2>
+<pre><code class="language-sh"># 포테이톡스 협업 클라이언트
+$ git clone https://github.com/NSMARTS/potatocs-collab-client-community.git
+
+# 포테이톡스 협업 서버
+$ git clone https://github.com/NSMARTS/potatocs-collab-server-community.git
+
+# 포테이톡스 미팅 클라이언트
+$ git clone https://github.com/NSMARTS/potatocs-meeting-client-community.git
+
+# 포테이톡스 미팅 서버
+$ git clone https://github.com/NSMARTS/potatocs-meeting-server-community.git
+</code></pre>
+<hr />
+<h2 id="3">3. 환경변수 설정</h2>
+<h4 id="31">3.1 포테이톡스 협업서버 환경변수 설정</h4>
+<pre><code class="language-sh"># 포테이톡스 협업 서버로 이동
+cd potatocs-collab-server-community
+
+# env 파일 생성
+mkdir env &amp;&amp; vi env/dev.env
+
+# vi 편집기에서 'i' 누른 후 아래 내용 복사 + 붙여넣기. 저장 후 종료 esc wq!
+-----------------------------------------------
+# Mode
+MODE = 'Development Mode'
+
+# Token
+JWT_SECRET = 'coop'
+
+# Mongo DB URL
+MONGODB_URI='mongodb://localhost:27017/?retryWrites=true&amp;w=majority'
+
+# PORT
+PORT = 3300
+
+# S3 Config
+AWS_ACCESS_KEY = 'Your S3 ACCESS_KEY'
+AWS_SECRET_ACCESS_KEY = 'Your S3_SECRET_ACCESS_KEY'
+AWS_REGION = 'Your_S3_REGION'
+
+# S3 Bucket Name
+AWS_S3_BUCKET = 'Your_S3_BUCKET'
+
+# SES Config
+AWS_SES_ACCESS_KEY = 'Your SES ACCESS_KEY'
+AWS_SES_SECRET_ACCESS_KEY = 'Your SES SECRET_ACCESS_KEY'
+AWS_SES_REGION = 'Your SES_REGION'
+
+# Node Mailer
+POTATOCS_URL = 'Your_URL'
+
+# White Board Canvas Drawing Recording File
+whiteBoardFolderName = '/uploads/white_board'
+-----------------------------------------------
+</code></pre>
+<h4 id="32">3.2 포테이톡스 미팅서버 환경변수 설정</h4>
+<pre><code class="language-sh"># 포테이톡스 미팅 서버로 이동
+cd ../potatocs-meeting-server-community
+
+# env 파일 생성
+mkdir env &amp;&amp; vi env/dev.env
+
+# vi 편집기에서 'i' 누른 후 아래 내용 복사 + 붙여넣기. 저장 후 종료 esc wq!
+-----------------------------------------------
+#    DEVELOPMENT MODE
+MODE = 'Development Mode'
+
+# Token
+JWT_SECRET = 'coop'
+
+# Mongo DB URL
+MONGODB_URI='mongodb://localhost:27017/?directConnection=true?retryWrites=true&amp;w=majority'
+
+# PORT
+PORT = 3400
+
+# VERSION
+VERSION = '0.0.1'
+
+# SocketHandler-sharing
+KURENTO_AS_URI = 'http://localhost:3000'
+KURENTO_WS_URI = 'ws://localhost:8888/kurento'
+
+# S3 Config
+AWS_ACCESS_KEY = 'Your S3 ACCESS_KEY'
+AWS_SECRET_ACCESS_KEY = 'Your S3_SECRET_ACCESS_KEY'
+AWS_REGION = 'Your_S3_REGION'
+
+# S3 Bucket Name
+AWS_S3_BUCKET = 'Your_S3_BUCKET'
+-----------------------------------------------
+</code></pre>
+<hr />
+<h2 id="4">4. 포테이톡스 실행</h2>
+<pre><code class="language-sh"># 터미널 첫번째 탭에서 실행
+cd potatocs-collab-client-community
+npm i
+npm start
+
+# 터미널 두번째 탭에서 실행
+cd potatocs-collab-server-community
+npm i
+npm run linux-test
+
+# 터미널 세번째 탭에서 실행
+cd potatocs-meeting-client-community
+npm i
+npm start
+
+# 터미널 네번째 탭에서 실행
+cd potatocs-meeting-server-community
+npm i
+npm run linux-test
+</code></pre>
+<hr />
+<h2 id="5">5. 문의사항</h2>
+<p>궁금하거나 문의사항이 있을 경우, ce.potatocs@gmail.com 으로 연락주시길 바랍니다.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="What is Potatcs?"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
