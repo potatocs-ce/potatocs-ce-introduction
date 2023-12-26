@@ -1,15 +1,17 @@
 # Getting started - install
+
 ---
 
 ## 목차
+
 [1. 요구사항](#1) <br>
 [2. 포테이톡스 커뮤니티 설치](#2) <br>
 [3. 환경변수 설정](#3) <br>
 [4. 포테이톡스 실행](#4) <br>
 [5. 문의사항](#5) <br>
 
-<!-- -   `mkdocs new [dir-name]` - Create a new project. -->
----
+## <!-- -   `mkdocs new [dir-name]` - Create a new project. -->
+
 ## 1. 요구사항
 
 |       이름       |                 버전                 |
@@ -96,6 +98,7 @@ $ docker pull kurento/kurento-media-server
 $ docker run --rm -d -p 8888:8888/tcp -p 5000-5050:5000-5050/udp \\
  -e KMS_MIN_PORT=5000 -e KMS_MAX_PORT=5050 kurento/kurento-media-server:6.16.0
 ```
+
 ---
 
 ## 2. 포테이톡스 커뮤니티 설치
@@ -113,10 +116,10 @@ $ git clone https://github.com/NSMARTS/potatocs-meeting-client-community.git
 # 포테이톡스 미팅 서버
 $ git clone https://github.com/NSMARTS/potatocs-meeting-server-community.git
 ```
+
 ---
 
 ## 3. 환경변수 설정
-
 
 #### 3.1 포테이톡스 협업서버 환경변수 설정
 
@@ -201,10 +204,10 @@ AWS_REGION = 'Your_S3_REGION'
 AWS_S3_BUCKET = 'Your_S3_BUCKET'
 -----------------------------------------------
 ```
+
 ---
 
 ## 4. 포테이톡스 실행
-
 
 ```sh
 # 터미널 첫번째 탭에서 실행
@@ -227,9 +230,9 @@ cd potatocs-meeting-server-community
 npm i
 npm run linux-test
 ```
+
 ---
 
 ## 5. 문의사항
-
 
 궁금하거나 문의사항이 있을 경우, ce.potatocs@gmail.com 으로 연락주시길 바랍니다.
