@@ -4,7 +4,7 @@
 ---
 version: 1.0.0
 
-link: https://potatocs.com/doc
+link: https://potatocs.com/docs
 
 service link: https://potatoce.com
 
