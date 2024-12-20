@@ -177,8 +177,6 @@ PORT = 3400
 # VERSION
 VERSION = '0.0.1'
 
-# SocketHandler-sharing
-KURENTO_AS_URI = 'http://localhost:3000'
 
 # S3 Config
 AWS_ACCESS_KEY = 'Your S3 ACCESS_KEY'
