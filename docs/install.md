@@ -65,11 +65,8 @@ $ nvm install v16
 $ nvm alias default v16
 ```
 
-#### 1.4 Docker desktop 다운로드
 
-<https://www.docker.com/products/docker-desktop/>
 
-#### 1.5 Docker Image 다운로드
 
 ```sh
 # wsl2 우분투에서
