@@ -127,6 +127,9 @@ JWT_SECRET = 'coop'
 # Mongo DB URL
 MONGODB_URI='mongodb://localhost:27017/?retryWrites=true&w=majority'
 
+# VERSION
+VERSION = '0.2'
+
 # PORT
 PORT = 3300
 
