@@ -193,7 +193,6 @@ VERSION = '0.0.1'
 
 # SocketHandler-sharing
 KURENTO_AS_URI = 'http://localhost:3000'
-KURENTO_WS_URI = 'ws://localhost:8888/kurento'
 
 # S3 Config
 AWS_ACCESS_KEY = 'Your S3 ACCESS_KEY'
