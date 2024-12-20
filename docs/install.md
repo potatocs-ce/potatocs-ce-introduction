@@ -195,6 +195,8 @@ ZT8tzjUQY5QZ2PvaLAA6UQJBAJXLnYMIX0ZkO1nG6mMIWoZtrLpfg+pSFa0VUsHs
 7G3iYf9v31Wd6HipMRzg/q63m90nwI5emTYe+EEo4lkGnz8=
 -----END RSA PRIVATE KEY-----
 
+# meeting 서버의 config.js 부분 내용 확인
+
 # vi 편집기에서 'i' 누른 후 아래 내용 복사 + 붙여넣기. 저장 후 종료 esc wq!
 -----------------------------------------------
 #    DEVELOPMENT MODE
