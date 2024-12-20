@@ -82,21 +82,7 @@ $ docker pull mongo
 # 도커로 몽고디비 실행
 $ docker run --name mongodb -v ~/mongodb/data:/data/db -d -p 27017:27017 mongo
 
-# coturn 이미지 설치
-$ docker pull coturn/coturn
 
-# coturn 실행
-# * localhost 테스트용으로 포트번호를 적게 열어둠.
-# 실사용 시 -p 49152-65535:49152-65535/udp 로 바꾸고 --min-port=49160 --max-port=49200 제거
-$ docker run -d -p 3478:3478 -p 3478:3478/udp -p 5349:5349 -p 5349:5349/udp \\
- -p 49160-49200:49160-49200/udp coturn/coturn --min-port=49160 --max-port=49200
-
-# 쿠렌토 미디어 설치
-$ docker pull kurento/kurento-media-server
-
-# 쿠렌토 미디어 실행
-$ docker run --rm -d -p 8888:8888/tcp -p 5000-5050:5000-5050/udp \\
- -e KMS_MIN_PORT=5000 -e KMS_MAX_PORT=5050 kurento/kurento-media-server:6.16.0
 ```
 
 ---
